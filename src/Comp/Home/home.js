@@ -1,5 +1,6 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import Map from "../Map/map.js";
+import Table from "../Table/table.js";
 
 function Home() {
     return (
@@ -28,10 +29,10 @@ function Home() {
     <div className="container">
       <div className="row">
         <div className="col">
-        <h1>trending</h1>
+        <Table />
         </div>
         <div className="col">
-        <h1>map</h1>
+        <Map />
         </div>
       </div>
     </div>

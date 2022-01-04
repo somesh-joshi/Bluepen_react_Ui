@@ -6,6 +6,7 @@ import About from './Comp/About/about.js';
 import Faq from './Comp/Faq/faq.js';
 
 
+
 function App() {
   return (
     <>

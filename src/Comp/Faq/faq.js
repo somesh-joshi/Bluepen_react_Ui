@@ -1,5 +1,4 @@
 import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
 import  Accordion from "./accordion.js";
 
 function Faq() {
@@ -7,7 +6,7 @@ function Faq() {
         <>
         <div className="container">
         <h1>FAQs</h1>
-        <Accordion />
+        <div className="border"><Accordion /></div>
         </div>
         </>
     );
